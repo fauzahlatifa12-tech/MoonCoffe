@@ -4,22 +4,6 @@ Mini projek website coffee shop bernama **Moon Coffee**, dibuat menggunakan HTML
 
 Website ini menampilkan profil kedai kopi, daftar menu lengkap, galeri suasana, informasi kontak, dan form reservasi meja.
 
-## 📁 Struktur File
-
-├──MoonCoffee
-├── index.html          → Halaman utama (Home)
-├── menu.html           → Daftar menu Coffee, Non Coffee, dan Dessert
-├── gallery.html        → Galeri foto suasana kedai
-├── about.html          → Profil, visi misi, dan tim barista
-├── contact.html        → Informasi kontak, form pesan, dan peta lokasi
-├── reservation.html    → Form reservasi meja
-│
-├── style.css           → Seluruh tampilan website
-├── script.js           → Seluruh fungsi JavaScript
-│
-└── asset/              → Kumpulan gambar (logo, menu, galeri, ikon sosial media)
-
-
 ## ⚙️ Fitur JavaScript
 
 | Fungsi | Kegunaan |
@@ -45,4 +29,4 @@ Website ini menampilkan profil kedai kopi, daftar menu lengkap, galeri suasana, 
 
 Dibuat Oleh Fauzah Lathifha
 
-© 2026 MoonCoffee — Mini Projek Pemrograman Web 
+© 2026 MoonCoffee — Mini Projek Pemrograman Web HTML 
