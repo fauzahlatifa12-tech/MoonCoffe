@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Moon Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Permanent+Marker&family=Sassy+Frass&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="foto"><img src="asset/logo.jpg" alt="Logo Moon Coffee"></div>
+        <div class="logo">MOON <span>COFFEE</span></div>
+
+        <nav class="navigasi">
+            <a href="index.html">Home</a>
+            <a href="menu.html" class="active">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="reservation.html">Reservation</a>
+        </nav>
+    </header>
+
+    <main>
+
+
+    <section class="menutext">
+        <h1>Our Coffee Menu</h1>
+        <p>Nikmati berbagai pilihan kopi terbaik dengan cita rasa premium.</p>
+    </section>
+
+    <section class="menu">
+        <h2>Coffee</h2>
+        <div class="produk">
+        <article class="item">
+            <span class="cardd">Best Seller</span>
+            <img src="asset/americcano.jpg" alt="Americano">
+            <h3>Americano</h3>
+            <p class="deskripsi">Americano adalah espresso yang ditambahkan air panas, menciptakan rasa lebih ringan. Cocok untuk yang suka kopi hitam tapi tidak terlalu pekat.</p>
+            <p>Rp28.000</p>
+            <button onclick="pesanMenu('Americano', 28000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p class="deskripsi">Latte terdiri dari espresso, susu steamed, dan sedikit busa susu. Rasanya lembut dan sering diberi sirup seperti vanila atau karamel.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Latte', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p class="deskripsi">Kopi ini diseduh dengan tekanan tinggi, menghasilkan rasa kuat dan pekat. Biasanya disajikan dalam cangkir kecil.</p>
+            <p>Rp24.000</p>
+            <button onclick="pesanMenu('Espresso', 24000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/mocca.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p class="deskripsi">Mocha adalah kombinasi espresso, susu, dan cokelat. Cocok untuk kamu yang suka rasa manis dengan sentuhan kopi.</p>
+            <p>Rp32.000</p>
+            <button onclick="pesanMenu('Mocha', 32000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/lattemacchiato.jpg" alt="Latte Macchiato">
+            <h3>Latte Macchiato</h3>
+            <p class="deskripsi">Macchiato adalah espresso dengan sedikit busa susu di atasnya. Rasanya lebih kuat dibandingkan latte.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Latte Macchiato', 30000)">Order</button>
+        </article>
+    
+        <article class="item">
+            <img src="asset/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p class="deskripsi">Mirip latte, cappuccino punya lebih banyak busa susu. Perbandingannya biasanya 1:1:1 antara espresso, susu steamed, dan busa.</p>
+            <p>Rp25.000</p>
+            <button onclick="pesanMenu('Cappuccino', 25000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/mochalatte.jpg" alt="Mocha Latte">
+            <h3>Mocha Latte</h3>
+            <p class="deskripsi">Minuman ini merupakan variasi dari latte yang ditambahkan dengan sirup cokelat, menciptakan harmoni rasa yang unik antara kopi dan cokelat</p>
+            <p>Rp35.000</p>
+            <button onclick="pesanMenu('Mocha Latte', 35000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/cortado.jpg" alt="Cortado">
+            <h3>Cortado</h3>
+            <p class="deskripsi">Cortado adalah espresso yang dicampur susu steamed dengan perbandingan 1:1. Tidak ada busa, hanya rasa seimbang.</p>
+            <p>Rp25.000</p>
+            <button onclick="pesanMenu('Cortado', 25000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/affogato.jpg" alt="Affogato">
+            <h3>Affogato</h3>
+            <p class="deskripsi">Affogato adalah dessert kopi, di mana espresso disiramkan ke atas es krim vanila. Manis dan menyegarkan!</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Affogato', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/lungo.jpg" alt="Lungo">
+            <h3>Lungo</h3>
+            <p class="deskripsi">Lungo menggunakan lebih banyak air, menghasilkan kopi yang lebih ringan namun tetap beraroma.</p>
+            <p>Rp34.000</p>
+            <button onclick="pesanMenu('Lungo', 34000)">Order</button>
+        </article>
+        </div>
+    </section>
+
+    <section class="menu">  
+        <h2>Non Coffee</h2>
+        <div class="produk">
+        <article class="item">
+            <img src="asset/matcha.jpg" alt="Classic Matcha Latte">
+            <h3>Classic Matcha Latte</h3>
+            <p class="deskripsi">Classic Matcha Latte dibuat dari matcha premium dan susu segar yang menghasilkan rasa creamy dengan aroma matcha yang khas.</p>
+            <p>Rp33.000</p>
+            <button onclick="pesanMenu('Classic Matcha Latte', 33000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/HojichaCreamLatte.jpg" alt="Hojicha Cream Latte">
+            <h3>Hojicha Cream Latte</h3>
+            <p class="deskripsi">Hojicha Cream Latte dibuat dari bubuk hojicha yang memiliki aroma roasted khas, susu segar, dan cream foam lembut. Rasanya lebih ringan dibandingkan matcha dengan sentuhan earthy dan sedikit nutty.</p>
+            <p>Rp32.000</p>
+            <button onclick="pesanMenu('Hojicha Cream Latte', 32000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/redvelved.jpg" alt="Red Velvet latte">
+            <h3>Red Velvet Latte</h3>
+            <p class="deskripsi">Red Velvet Latte dibuat dari susu segar, red velvet powder, sedikit vanilla, dan cream foam. Rasanya creamy, manis, dan memiliki aroma vanilla yang lembut.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Red Velvet Latte', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/mangomatcha.jpg" alt="Mango Matcha">
+            <h3>Mango Matcha</h3>
+            <p class="deskripsi">Mango Matcha memadukan matcha premium, susu, dan puree mangga yang manis serta harum. Rasa earthy dari matcha berpadu dengan rasa mangga yang fruity dan menyegarkan.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Mango Matcha', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/brownsugar.jpg" alt="Brown Sugar Milk">
+            <h3>Brown Sugar Milk</h3>
+            <p class="deskripsi">Brown Sugar Milk dibuat menggunakan susu segar dengan brown sugar yang dimasak hingga menghasilkan rasa caramel yang manis dan harum.</p>
+            <p>Rp29.000</p>
+            <button onclick="pesanMenu('Brown Sugar Milk', 29000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/strawberrymilk.jpg" alt="Strawberry Cream Milk">
+            <h3>Strawberry Cream Milk</h3>
+            <p class="deskripsi">Minuman ini dibuat dari strawberry puree, susu segar, dan lapisan cream lembut di bagian atas. Rasa strawberry yang fruity berpadu dengan susu yang creamy sehingga menghasilkan rasa yang ringan dan menyegarkan.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Strawberry Cream Milk', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/mangoyakult.jpg" alt="Mango Yakult Fizz">
+            <h3>Mango Yakult Fizz</h3>
+            <p class="deskripsi">Mango Yakult Fizz dibuat dari puree mangga, Yakult, dan sparkling water yang memberikan sensasi segar serta sedikit berkarbonasi.</p>
+            <p>Rp25.000</p>
+            <button onclick="pesanMenu('Mango Yakult Fizz', 25000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/lychee.jpg" alt="Lychee Rose Tea">
+            <h3>Lychee Rose Tea</h3>
+            <p class="deskripsi">Lychee Rose Tea merupakan perpaduan teh ringan, buah leci, dan aroma rose yang lembut. Rasanya manis, floral, dan menyegarkan dengan aroma yang elegan.</p>
+            <p>Rp29.000</p>
+            <button onclick="pesanMenu('Lychee Rose Tea', 29000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/peachlemon.jpg" alt="Peach Lemon Tea">
+            <h3>Peach Lemon Tea</h3>
+            <p class="deskripsi">Peach Lemon Tea dibuat dari teh pilihan, peach syrup, dan perasan lemon segar. Rasa manis dan fruity dari peach berpadu dengan rasa citrus yang segar dari lemon.</p>
+            <p>Rp29.000</p>
+            <button onclick="pesanMenu('Peach Lemon Tea', 29000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/coconut.jpg" alt="Coconut Matcha">
+            <h3>Coconut Matcha</h3>
+            <p class="deskripsi">Coconut Matcha dibuat menggunakan matcha premium dan coconut milk dengan sedikit coconut cream.</p>
+            <p>Rp40.000</p>
+            <button onclick="pesanMenu('Coconut Matcha', 40000)">Order</button>
+        </article>
+        </div>
+    </section>
+
+    <section class="menu">
+        <h2>Dessert</h2>
+        <div class="produk">
+        <article class="item">
+            <img src="asset/cheesecake.jpg" alt="Cheesecake">
+            <h3>Cheesecake</h3>
+            <p class="deskripsi">Cheesecake dibuat dari cream cheese, telur, gula, dan fresh cream dengan dasar biscuit crust yang renyah.</p>
+            <p>Rp35.000</p>
+            <button onclick="pesanMenu('Cheesecake', 35000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/croissant.jpg" alt="Croissant">
+            <h3>Croissant</h3>
+            <p class="deskripsi">Croissant dibuat dari adonan pastry berlapis yang menggunakan butter berkualitas.</p>
+            <p>Rp22.000</p>
+            <button onclick="pesanMenu('Croissant', 22000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/browies.jpg" alt="Brownies">
+            <h3>Brownies</h3>
+            <p class="deskripsi">Brownies dibuat dari dark chocolate, butter, telur, gula, dan sedikit tepung. Teksturnya fudgy dan moist dengan rasa cokelat yang intens.</p>
+            <p>Rp25.000</p>
+            <button onclick="pesanMenu('Brownies', 25000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/matcha tiramisu.jpg" alt="Matcha Tiramisu">
+            <h3>Matcha Tiramisu</h3>
+            <p class="deskripsi">Matcha Tiramisu merupakan perpaduan dessert klasik Italia dengan cita rasa khas Jepang.</p>
+            <p>Rp25.000</p>
+            <button onclick="pesanMenu('Matcha Tiramisu', 25000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/strawberycake.jpg" alt="Strawberry Shortcake">
+            <h3>Strawberry Shortcake</h3>
+            <p class="deskripsi">Strawberry Shortcake terdiri dari sponge cake yang lembut, whipped cream, dan strawberry segar. Rasa manis dari cake berpadu dengan strawberry yang sedikit asam sehingga terasa seimbang.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Strawberry Shortcake', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/lavacake.jpg" alt="Chocolate Lava Cake">
+            <h3>Chocolate Lava Cake</h3>
+            <p class="deskripsi">Chocolate Lava Cake dibuat dari dark chocolate, butter, telur, dan tepung dengan bagian tengah yang sengaja dibuat tetap lembut.</p>
+            <p>Rp50.000</p>
+            <button onclick="pesanMenu('Chocolate Lava Cake', 50000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/ice cream.jpg" alt="Croffle Ice Cream">
+            <h3>Croffle Ice Cream</h3>
+            <p class="deskripsi">Croffle Ice Cream merupakan perpaduan croissant dan waffle yang dipanggang hingga crispy di bagian luar namun tetap lembut di dalam.</p>
+            <p>Rp29.000</p>
+            <button onclick="pesanMenu('Croffle Ice Cream', 29000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/panna cotta.jpg" alt="Mango Panna Cotta">
+            <h3>Mango Panna Cotta</h3>
+            <p class="deskripsi">Mango Panna Cotta dibuat dari fresh cream, susu, vanilla, dan gelatin dengan lapisan puree mangga di bagian atasnya.</p>
+            <p>Rp30.000</p>
+            <button onclick="pesanMenu('Mango Panna Cotta', 30000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/mocci cream.jpg" alt="Strawberry Mochi Cream">
+            <h3>Strawberry Mochi Cream</h3>
+            <p class="deskripsi">Strawberry Mochi Cream dibuat dari kulit mochi yang lembut dan kenyal dengan isian whipped cream serta strawberry segar.</p>
+            <p>Rp25.000</p>
+            <button onclick="pesanMenu('Strawberry Mochi Cream', 25000)">Order</button>
+        </article>
+
+        <article class="item">
+            <img src="asset/cinnamon.jpg" alt="Cinnamon Roll Cream Cheese">
+            <h3>Cinnamon Roll Cream Cheese</h3>
+            <p class="deskripsi">Cinnamon Roll dibuat dari adonan roti lembut yang diberi isian cinnamon dan brown sugar kemudian dipanggang hingga harum.</p>
+            <p>Rp27.000</p>
+            <button onclick="pesanMenu('Cinnamon Roll Cream Cheese', 27000)">Order</button>
+        </article>
+        </div>  
+    </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Moon Coffee</h3>
+        <p>Jl. Bolak Balik No.100 Bandung</p>
+        <p>
+            <a href="https://www.instagram.com/fauzahltifa_/" target="_blank">
+                <img src="asset/ig.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/jahoOo_/" target="_blank">
+                <img src="asset/tiktok.png" alt="TikTok">
+            </a>
+            <a href="https://www.youtube.com/fauzah/" target="_blank">
+                <img src="asset/yt.png" alt="YouTube">
+            </a>        
+        </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

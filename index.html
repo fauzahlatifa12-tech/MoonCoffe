@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Moon Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Permanent+Marker&family=Sassy+Frass&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="foto"><img src="asset/logo.jpg" alt="Logo Moon Coffee"></div>
+        <div class="logo">MOON <span>COFFEE</span></div>
+
+        <nav class="navigasi">
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="reservation.html">Reservation</a>
+        </nav>
+    </header>
+
+    <main>
+    <section class="katakata">
+        <div class="text">
+            <h1>Enjoy Every Sip Of Coffee</h1>
+            <p id="sapaan"></p>
+            <p>Premium Coffee with Premium Taste.
+                Freshly brewed every single day.
+            </p>
+            <a href="menu.html" class="menuh">Order Now</a>
+        </div>
+
+        <div class="gambar">
+            <img src="asset/ini.jpg" alt="Secangkir kopi Moon Coffee">
+        </div>
+    </section>
+
+    <section class="kopipilihan">
+        <h2>Why Choose Us</h2>
+        <div class="box">
+            <div class="card">
+                <h3>Premium Beans</h3>
+                <p>Menggunakan biji kopi pilihan dari Indonesia</p>
+            </div>
+
+            <div class="card">
+                <h3>Fast Service</h3>
+                <p>Penyajian cepat dan pelayanan ramah</p>
+            </div>
+
+            <div class="card">
+                <h3>Friendly Barista</h3>
+                <p>Barista profesional dengan pengalaman terbaik</p>
+            </div>
+
+            <div class="card">
+                <h3>Fresh Coffee</h3>
+                <p>Kopi selalu dibuat saat dipesan</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="best">
+        <h2>Best Seller</h2>
+
+        <div class="produk">
+            <div class="item">
+                <span class="cardd">Best Seller</span>
+                <img src="asset/matcha.jpg" alt="Classic Matcha Latte">
+                <h3>Classic Matcha Latte</h3>
+                <p class="deskripsi">Matcha premium dan susu segar dengan rasa creamy serta aroma matcha yang khas.</p>
+                <p>Rp33.000</p>
+                <button onclick="pesanMenu('Classic Matcha Latte', 33000)">Order Now</button>
+            </div>
+
+            <div class="item">
+                <img src="asset/cappuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p class="deskripsi">Espresso, susu steamed, dan busa susu yang lembut dengan perbandingan seimbang.</p>
+                <p>Rp25.000</p>
+                <button onclick="pesanMenu('Cappuccino', 25000)">Order Now</button>
+            </div>
+
+            <div class="item">
+                <img src="asset/latte.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p class="deskripsi">Perpaduan espresso dan susu steamed yang lembut, favorit semua kalangan.</p>
+                <p>Rp30.000</p>
+                <button onclick="pesanMenu('Latte', 30000)">Order Now</button>
+            </div>
+
+            <div class="item">
+                <img src="asset/americcano.jpg" alt="Americano">
+                <h3>Americano</h3>
+                <p class="deskripsi">Espresso dengan tambahan air panas, rasanya ringan tapi tetap nikmat.</p>
+                <p>Rp28.000</p>
+                <button onclick="pesanMenu('Americano', 28000)">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testi">
+        <h2>Customer Review</h2>
+        <div class="rating">⭐⭐⭐⭐⭐
+            <p>"Kopi terenak yang pernah aku coba!"</p>
+            <p><b>- Kim Taehyung</b></p>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Moon Coffee</h3>
+        <p>Jl. Bolak Balik No.100 Bandung</p>
+        <p>
+            <a href="https://www.instagram.com/fauzahltifa_/" target="_blank">
+                <img src="asset/ig.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/jahoOo_/" target="_blank">
+                <img src="asset/tiktok.png" alt="TikTok">
+            </a>
+            <a href="https://www.youtube.com/fauzah/" target="_blank">
+                <img src="asset/yt.png" alt="YouTube">
+            </a>
+        </p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

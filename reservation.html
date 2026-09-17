@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | Moon Coffee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Permanent+Marker&family=Sassy+Frass&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="foto"><img src="asset/logo.jpg" alt="Logo Moon Coffee"></div>
+        <div class="logo">MOON <span>COFFEE</span></div>
+
+        <nav class="navigasi">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="reservation.html" class="active">Reservation</a>  
+        </nav>
+    </header>
+
+    <main>
+
+
+    <section class="textreservasi">
+        <h1>Book Your Table</h1>
+        <p>Nikmati Pengalaman ngopi terbaik bersama keluarga dan sahabat.</p>
+    </section>
+
+    <section class="reservationform">
+        <div class="boxx">
+            <h2>Reservation Form</h2>
+
+            <form id="formReservasi" onsubmit="validasiReservasi(event)">    
+                <input type="text" id="res-nama" placeholder="Nama Lengkap" >
+                <input type="email" id="res-email" placeholder="@gmail.com" >
+                <input type="tel" id="res-telepon" placeholder="08xxxxxxxxxx" >
+                <input type="date" id="res-tanggal" >
+                <input type="time" id="res-waktu" >
+                
+                <select id="res-meja">
+                <option>Pilih Meja</option>
+                <option>Indoor</option>
+                <option>Outdoor</option>
+                <option>VIP Room</option>
+                </select>
+
+                <input type="number" id="res-jumlah" placeholder="Jumlah Orang" >
+                <textarea id="res-catatan" rows="5" placeholder="Catatan Tambahan"></textarea>
+                <button type="submit">Reserve Now</button>
+            </form>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <h3>Moon Coffee</h3>
+        <p>Jl. Bolak Balik No.100 Bandung</p>
+        <p>
+            <a href="https://www.instagram.com/fauzahltifa_/" target="_blank">
+                <img src="asset/ig.png" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/jahoOo_/" target="_blank">
+                <img src="asset/tiktok.png" alt="TikTok">
+            </a>
+            <a href="https://www.youtube.com/fauzah/" target="_blank">
+                <img src="asset/yt.png" alt="YouTube">
+            </a>        
+        </p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
